@@ -13,7 +13,9 @@ Open [http://localhost:8080](http://localhost:8080)
 ### Set a custom domain
 
 - Open the gulpfile.js file in the root folder
-
+	
+	```
+	// gulpfile.js
 	gulp.task( 'webserver', function() {
 	  	connect.server({
 	  		livereload: true,
@@ -21,6 +23,7 @@ Open [http://localhost:8080](http://localhost:8080)
 	  		// host: ''
 	  	});
 	});
+	```
 
 - Uncomment Port and host lines
 - In the host line set your **example.dev**
