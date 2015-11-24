@@ -14,7 +14,8 @@ Open [http://localhost:8080](http://localhost:8080)
 
 - Open the gulpfile.js file in the root folder
 
-	// gulpfile.js
+	/* gulpfile.js */
+
 	gulp.task( 'webserver', function() {
 	  	connect.server({
 	  		livereload: true,
