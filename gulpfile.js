@@ -2,6 +2,8 @@ var gulp = require( 'gulp' ),
 	connect = require('gulp-connect'),
 	minifyCss = require( 'gulp-minify-css' ),
 	less = require( 'gulp-less' );
+	gconcat = require( 'gulp-concat' );
+	uglify = require( 'gulp-uglify' );
 
 gulp.task( 'webserver', function() {
   	connect.server({
@@ -25,8 +27,20 @@ gulp.task( 'minify', function() {
 		.pipe( gulp.dest( './assets/css/' ));
 });
 
+gulp.task( 'concat-js', function() {
+	return gulp.src([ 
+			'./build/react.js', 
+			'./build/react-dom.js', 
+			'./bower-components/routie/dist/routie.min.js',
+			'./bower-components/jquery/dist/jquery.min.js' 
+		])
+        .pipe( gconcat( './assets/js/dist.js' ) )
+        .pipe( uglify() )
+        .pipe( gulp.dest( './' ) );
+});
+
 gulp.task( 'watch', function() {
     gulp.watch( './assets/less/*/*.less', [ 'less' ]);
 })
 
-gulp.task( 'default', [ 'less', 'webserver', 'watch' ]);
+gulp.task( 'default', [ 'less', 'minify', 'concat-js', 'webserver', 'watch' ]);

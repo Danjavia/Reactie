@@ -27,6 +27,7 @@
     "tests"
   ],
   "dependencies": {
+    "jquery": "2.1.4",
     "lesshat": "~3.0.2",
     "routie": "~0.3.2"
   }
