@@ -1,4 +1,4 @@
-# musiko
+# Reactie
 
 Starter kit for ReactJS & RoutieJS
 
