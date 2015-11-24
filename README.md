@@ -10,6 +10,13 @@ Installation
 
 Open [http://localhost:8080](http://localhost:8080)
 
+### This pack include
+
+- Babel browser
+- [https://facebook.github.io/react/](ReactJs) & [http://projects.jga.me/routie/](RoutieJS) of course :)
+- [http://blog.getbootstrap.com/2015/08/19/bootstrap-4-alpha/](Bootstrap v4)
+- [https://fortawesome.github.io/Font-Awesome/](Font Awesome v4.5.0)
+
 ---------------------------------------------------
 
 ### Set a custom domain
