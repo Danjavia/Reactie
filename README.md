@@ -10,6 +10,8 @@ Installation
 
 Open [http://localhost:8080](http://localhost:8080)
 
+---------------------------------------------------
+
 ### Set a custom domain
 
 - Open the gulpfile.js file in the root folder
