@@ -5,6 +5,7 @@ Starter kit for ReactJS & RoutieJS
 ### This pack include
 
 - Babel browser
+- live reload
 - [ReactJs](https://facebook.github.io/react/) & [RoutieJS](http://projects.jga.me/routie/) of course :)
 - [Bootstrap v4](http://blog.getbootstrap.com/2015/08/19/bootstrap-4-alpha/)
 - [Font Awesome v4.5.0](https://fortawesome.github.io/Font-Awesome/)
