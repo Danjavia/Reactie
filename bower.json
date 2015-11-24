@@ -1,11 +1,11 @@
 {
-  "name": "musiko",
+  "name": "Reactie",
   "version": "0.0.1",
-  "homepage": "https://github.com/danjavia/musiko",
+  "homepage": "https://github.com/danjavia/Reactie",
   "authors": [
     "Danjavia <danjavia.iconshock@gmail.com>"
   ],
-  "description": "Sample application for comparamejor.com",
+  "description": "Starter kit ready to use for creating apps with ReactJS & Routie.js",
   "main": "index.html",
   "moduleType": [
     "amd",
