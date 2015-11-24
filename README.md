@@ -13,9 +13,9 @@ Open [http://localhost:8080](http://localhost:8080)
 ### This pack include
 
 - Babel browser
-- [https://facebook.github.io/react/](ReactJs) & [http://projects.jga.me/routie/](RoutieJS) of course :)
-- [http://blog.getbootstrap.com/2015/08/19/bootstrap-4-alpha/](Bootstrap v4)
-- [https://fortawesome.github.io/Font-Awesome/](Font Awesome v4.5.0)
+- [ReactJs](https://facebook.github.io/react/) & [RoutieJS](http://projects.jga.me/routie/) of course :)
+- [Bootstrap v4](http://blog.getbootstrap.com/2015/08/19/bootstrap-4-alpha/)
+- [Font Awesome v4.5.0](https://fortawesome.github.io/Font-Awesome/)
 
 ---------------------------------------------------
 
