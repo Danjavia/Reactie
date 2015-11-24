@@ -1,6 +1,6 @@
 'use strict';
 
-// SearchBox
+// Home component
 var Home = React.createClass({
 
 	getInitialState: function () {
